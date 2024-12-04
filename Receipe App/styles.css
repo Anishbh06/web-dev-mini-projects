@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+/* html{
+    height: 100%;
+    width: 100%;
+} */
+
+body{
+    background: #ece9e6;
+    background: -webkit-linear-gradient(
+        to right,
+        #ffffff,
+        #ece9e6
+    );
+    background: linear-gradient(
+        to right,
+        #ffffff,
+        #ece9e6
+    );
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;   
+    max-width: 100%; 
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.mobile-container{
+    background-color: white;
+    width: 400px;
+    box-shadow: 0 10px 2px #3333331a;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 150px 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+header input{
+    background-color: #eee;
+    border-radius: 3px;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+header button{
+    background-color: transparent;
+    color: #eee;
+    color: #aaa;
+    border: none;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.fav-container{
+    background-color: rgb(233, 199, 255);
+        padding: 0.5rem;
+        text-align: center;
+}
+
+.fav-meals{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.fav-meals li{
+    width: 85px;
+
+}
+.fav-meals li img{
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 10px 2px #3333331a;
+    object-fit: cover;
+    height: 70px;
+    width: 70px;
+}
+
+.fav-meals li span{
+    font-size: 0.9rem;
+}
+
+.meal{
+    box-shadow: 0 10px 2px #3333331a;
+    border-radius: 3px;
+    margin: 1.5rem;
+}
+
+.meal-header{
+    position: relative;
+}
+
+.meal-header .random{
+    position: absolute;
+    top: 10px;
+    padding: 0.5rem;
+    background-color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-weight: 200;
+}
+
+.meal-header img{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+
+}
+
+.meal-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.meal-body{
+    margin: 0;
+}
+.meal-body .fav-btn{
+    border: none;
+    background-color: transparent;
+    color: rgb(197,188,188);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.meal-body .fav-btn.active{
+    color: rebeccapurple;
+}
+

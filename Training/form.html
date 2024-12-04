@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(220, 220, 220, 0.833);
+        }
+        h1,p{
+            text-align: center;
+        }
+        #farm{
+            background-color: white;
+            border: 1px solid white;
+            text-align: center;
+            margin:0 35vw;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #mail{
+            padding: 5px;
+            text-decoration: none;
+            border:none;
+            border: 1px solid grey;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create a new account</h1>
+    <p>Its quick and easy</p>
+    <form id="farm">
+        <input type="text"  placeholder="First Name">
+        <input type="text" placeholder="Last Name"><br><br>
+        <input type="text" placeholder="Mobile number or email address" id="mail"><br><br>
+        <input type="password" placeholder="New password"><br>
+        <p>Date Of Birth</p>
+        <label for="Date of birth" id="date"></label>
+        <select id="month" name="month" required>
+            <option value="">Month</option>
+        </select>
+        <select name="day" id="day" required>
+            <option value="">Day</option>
+        </select>
+        <select name="year" id="year">
+            <option value="">Year</option>
+        </select><br><br>
+        <p>Gender</p>
+        <input type="radio" id="Male" value="Female">
+        <label for="female">Male</label>
+        <input type="radio" id="female" value="Male">
+        <label for="female">Female</label>
+        <input type="radio" id="other" value="Other">
+        <label for="other">Other</label><br><br>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>

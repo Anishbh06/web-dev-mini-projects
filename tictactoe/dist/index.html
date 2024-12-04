@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-900 flex 
+items-center justify-center text-center">
+    <div id="container">
+    
+        <!-- Heading -->
+
+    <h1 id="heading" class="text-3xl text-white font-bold uppercase tracking-widest">Tic Tac Toe Game</h1>
+
+    <!-- Restart button -->
+
+    <button id="restart" class="mt-2 bg-yellow-300 rounded-lg 
+    p-1 w-20 uppercase hover:text-black hover:bg-yellow-200
+    font-semibold tracking-wide">Restart</button>
+    <h2 id="status" class="font-semibold text-yellow-300 text-2xl mt-3"></h2>
+
+    <!-- GAME -->
+
+    <div id="gameboard">
+    <div id="board" class="mt-16 grid grid-cols-3 grid-rows-3 font-semibold text-2xl text-yellow-300">
+        <div id="1" class="box border-b border-r border-yellow-300 p-16 hover:cursor-pointer"></div>
+        <div id="2" class="box border-b border-r border-yellow-300 p-16 hover:cursor-pointer"></div>
+        <div id="3" class="box border-b border-yellow-300 p-16 hover:cursor-pointer"></div>
+        <div id="4" class="box border-b border-r border-yellow-300 p-16 hover:cursor-pointer"></div>
+        <div id="5" class="box border-b border-r border-yellow-300 p-16 hover:cursor-pointer"></div>
+        <div id="6" class="box border-b border-yellow-300 p-16 hover:cursor-pointer"></div>
+        <div id="7" class="box  border-r border-yellow-300 p-16 hover:cursor-pointer"></div>
+        <div id="8" class="box  border-r border-yellow-300 p-16 hover:cursor-pointer"></div>
+        <div id="9" class="box  border-yellow-300 p-16 hover:cursor-pointer"></div>
+    </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html,body{
+    background-image: url("one.jpeg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size:20px;
+    width: 100%;
+    min-width: 400px;
+}
+
+.home{
+    border:none;
+    color:white;
+    text-decoration: none;
+}
+
+.home:hover{
+    border-bottom: 1px solid white;
+}
+
+.pro{
+    color:orange;
+    font-weight:800;
+    font-size: 1.2em;
+}
+
+
+.top{
+    border:none;
+    border:1px solid orange;
+    background:rgba(0,0,0,0);
+    color:white;
+}
+
+.submit{
+    border:1px solid orange;
+    background:rgba(0,0,0,0);
+    color:white;
+    background-color: orange;
+}
+
+.form{
+    display:inline;
+}
+
+/*this is the main content*/
+#main{
+    display: flex;
+    flex-direction: row;
+}
+
+.heading{
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+.dev{
+    color:orange;
+}
+
+.para{
+    letter-spacing: 2px;
+    padding:15px 0;
+}
+
+.join{
+    text-decoration: none;
+    border:1px solid orange;
+    color:white;
+    border-radius: 5px;
+    margin-top:10px;
+    padding:10px;
+    display: inline-block;
+    background-color: orange;
+    transition: all 0.1s ease;
+    margin-left: 10px;
+}
+
+.join:hover{
+    color:black;
+    background-color: orange;
+}
+
+.side{
+    margin-left: 25%;
+    display: inline-block;
+    background: rgba(0,0,0,0.8);
+    border:1px solid #0000;
+    border-radius: 15px;
+    text-align: center;
+    padding:15px;
+}
+
+/*blackk part*/
+.here{
+    text-decoration: none;
+    display: block;
+    color:orange;
+    background-color: white;
+    border:1px solid white;
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+    
+}
+
+.here:hover{
+    color:black;
+    cursor: pointer;
+
+}
+
+.email{
+    background: rgba(0,0,0,0.7);
+    text-decoration: none;
+    border: none;
+    margin:10px;
+    border-bottom: 1px solid orange;
+    color:white;
+}
+
+.pass{
+    background: rgba(0,0,0,0.7);
+    text-decoration: none;
+    border: none;
+    margin:10px;
+    border-bottom: 1px solid orange;
+    color:white;
+}
+
+.login{
+    text-decoration: none;
+    background-color: orange;
+    border:1px solid orange;
+    color:black;
+    padding:10px;
+    margin:10px 0;
+    border-radius: 10px;
+    display: block;
+    font-weight:800;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+}
+
+.login:hover{
+    color:white;
+    cursor: pointer;
+    background-color: rgba(255, 166, 0, 0.906);
+}
+
+.done{
+    margin: 5px 0;
+}
+
+.sign:hover{
+    color:blue;
+
+}
+
